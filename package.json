@@ -1,0 +1,31 @@
+{
+  "name": "regex-ok",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "eslint . && tap run --allow-incomplete-coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ctcpip/regex-ok.git"
+  },
+  "keywords": [
+    "regex",
+    "regexp"
+  ],
+  "author": "Chris de Almeida",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ctcpip/regex-ok/issues"
+  },
+  "homepage": "https://github.com/ctcpip/regex-ok#readme",
+  "devDependencies": {
+    "eslint": "^9.5.0",
+    "eslint-config-ultra-mega": "^1.2.0",
+    "tap": "^19.2.5"
+  },
+  "dependencies": {
+    "safe-regex2": "^3.1.0"
+  }
+}
