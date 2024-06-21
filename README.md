@@ -1,6 +1,8 @@
 # regex-ok  👍
 
-let's you know if your JS RegExp is ok (not necessarily great)
+[![test it](https://github.com/ctcpip/regex-ok/actions/workflows/yee.yml/badge.svg)](https://github.com/ctcpip/regex-ok/actions/workflows/yee.yml)
+
+lets you know if your JS RegExp is ok (not necessarily great)
 
 ## install
 
