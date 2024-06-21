@@ -3,6 +3,11 @@ const isRegexOk = require('../src/index');
 const safeRegex = require('safe-regex2');
 const t = require('tap');
 
+t.test('the regexp used by this package passes', t => {
+  t.ok(isRegexOk(/^\/\^.+\$\/$/));
+  t.end();
+});
+
 t.test('our validation is more strict than safe-regex2 alone', t => {
   const halfBad = /^yee/;
 
